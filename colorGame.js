@@ -11,7 +11,7 @@ var hardBtn = document.querySelector("#hardBtn");
 
 
 easyBtn.addEventListener("click",function(){
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "steelblue";
 	hardBtn.classList.remove("selected");
 	easyBtn.classList.add("selected");
 	numberOfSquares = 3;
@@ -28,7 +28,7 @@ easyBtn.addEventListener("click",function(){
 })
 
 hardBtn.addEventListener("click",function(){
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "#steelblue";
 	easyBtn.classList.remove("selected");
 	hardBtn.classList.add("selected");
 	numberOfSquares = 6;
@@ -52,7 +52,7 @@ reset.addEventListener("click",function(){
 	for(var i = 0; i < squares.length ; i++){
 		squares[i].style.backgroundColor = colors[i];
 	}
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "steelblue";
 })
 
 colorDisplay.textContent = pickedColor;
