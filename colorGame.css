@@ -43,6 +43,13 @@ h1 {
 #message {
 	display: inline-block;
 	width: 20%;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	transition: all 0.5s;
+	outline: none;
 }
 
 #stripe {
